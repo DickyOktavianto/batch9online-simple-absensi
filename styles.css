@@ -51,6 +51,10 @@ body {
   color: white;
   border-radius: 100px;
 }
+#absensi_form button:active {
+  background-color: rgba(137, 43, 226, 0.568);
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.212);
+}
 #root {
   display: flex;
   gap: 20px;
