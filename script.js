@@ -55,6 +55,11 @@ function renderToHtml() {
 function handleDelete(index) {
   console.info(index);
 
+  if (handleDelete == '') {
+    alert('yakin hapus');
+    return;
+  }
+
   //delete 1 data dari array
   absensi_data.splice(index, 1);
 
