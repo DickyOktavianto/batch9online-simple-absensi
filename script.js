@@ -55,7 +55,7 @@ function renderToHtml() {
 function handleDelete(index) {
   console.info(index);
 
-  if (handleDelete == '') {
+  if (absensi_form == '') {
     alert('yakin hapus');
     return;
   }
