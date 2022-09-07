@@ -55,13 +55,9 @@ function renderToHtml() {
 function handleDelete(index) {
   console.info(index);
 
-  if (absensi_form == '') {
-    alert('yakin hapus');
-    return;
-  }
-
   //delete 1 data dari array
   absensi_data.splice(index, 1);
+  alert('yakin hapu');
 
   //render kembali data dalam array html
   renderToHtml();
